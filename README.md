@@ -1,19 +1,20 @@
 
 # 📈 Black-Scholes Option Pricing Interactive Heatmap 
 
-Welcome to the **Black-Scholes Option Pricing Interactive Heatmap**! This application offers a powerful tool for analyzing **theoretical option prices** combined with bid prices, enabling traders and learners to visualize how **market scenarios** like **volatility** and **stock price fluctuations** impact **P&L** (Profit & Loss).
+This repository provides interactive heatmap visualization using the Black-Scholes equation. This application is designed to provide insight into option P&L through implied volatility and stock price fluctuation. It helps to analyze the theoretical option prices in combination with bid prices.
 
 https://blackscholes.onrender.com/ 
 ---
 
 ## 📊 **Features**
 
-✨ **Interactive Heatmap Visualization**  
-- Represents **theoretical option price** (calculated using the Black-Scholes model) **+ bid price**.  
-- Provides insights into **value at pre-expiration**, making it a handy tool for **American option type trading** (though the Black-Scholes model primarily applies to European options).  
-- Displays how option values evolve with **volatility** and **stock price fluctuations**.  
+📍  **Option pricing Visualization**  
+- Manual input for the users to enter underlying price, strike price, time at maturity, risk-free interest rate, option bid price 
+- Displays both call and put option value given input parameters
+- Dashboard allows real-time updates into Black-Scholes model parameters
+- 
 
-✨ **P&L Analysis**  
--  Models P&L for a **short position**, helping you understand risks and potential outcomes in various **market conditions**.  
--  Explore **"what-if" scenarios** to optimize your trading strategy.  
+📍  **Interactive P&L heatmap Representation**  
+- Set up customizable implied volatility parameters to comprehensively view P&L over ranging implied volatility.
+- The heatmap dynamically updates to adjusted model parameter values
 
