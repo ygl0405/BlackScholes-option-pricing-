@@ -12,7 +12,6 @@ https://blackscholes.onrender.com/
 - Manual input for the users to enter underlying price, strike price, time at maturity, risk-free interest rate, option bid price 
 - Displays both call and put option value given input parameters
 - Dashboard allows real-time updates into Black-Scholes model parameters
-- 
 
 📍  **Interactive P&L heatmap Representation**  
 - Set up customizable implied volatility parameters to comprehensively view P&L over ranging implied volatility.
